@@ -8,7 +8,7 @@ int main(){
         if(a>b) min = b;
         else 
             min = a;
-            int temp;
+        int temp;
         for(int i = 1; i <= min; i++){
             if(a % i == 0 && b % i == 0){
                 temp = i;
